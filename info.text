@@ -1,0 +1,14 @@
+
+time change event of audio  : addEventListener("timeupdate", (event) => {
+    
+});
+
+The timeupdate event occurs when the playing position of an audio/video has changed.
+
+const collection = document.getElementsByTagName("li");
+
+Uncaught TypeError: songItems.forEach is not a function  
+slove error :
+let songItems=Array.from(document.getElementsByClassName('songItem'))
+
+document.getElementsByClassName('songItem') covert html to javascript 
